@@ -34,6 +34,7 @@
 <th>Email</th>
 <th>PhoneNumber</th>
 <th>Whatsapp</th>
+<th>Address</th>
 </tr>
 </thead>
 <tbody>
@@ -44,6 +45,7 @@
 		<td><c:out value="${member.email}"/></td>
 		<td><c:out value="${member.phoneNumber}"/></td>
 		<td><c:out value="${member.whatsapp}"/></td>
+		<td><c:out value="${member.address}"/></td>	
 	</tr>
 </c:forEach>
 </tbody>
