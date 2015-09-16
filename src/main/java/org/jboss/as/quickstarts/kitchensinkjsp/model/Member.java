@@ -60,6 +60,10 @@ public class Member implements Serializable {
     @Column(name = "phone_number")
     private String phoneNumber;
 
+    @NotNull
+    @NotEmpty
+    private String department;
+
     public Long getId() {
         return id;
     }
@@ -92,8 +96,16 @@ public class Member implements Serializable {
         this.phoneNumber = phoneNumber;
     }
 
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
     public String toString() {
-        return getName() + ":" + getEmail() + ":" + getPhoneNumber();
+        return getName() + ":" + getEmail() + ":" + getPhoneNumber() + ":" + getDepartment();
 
     }
 }

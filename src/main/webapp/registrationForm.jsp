@@ -53,6 +53,12 @@
                 <td><input id="phoneNumber" name="phoneNumber"
                     type="text" value="${newMember.phoneNumber}" /></td>
             </tr>
+	    <tr>
+                <td style="text-align: right;"><label
+                    for="departament">Department #:</label></td>
+                <td><input id="department" name="department"
+                    type="text" value="${newMember.department}" /></td>
+            </tr>
         </table>
         <p>
             <input id="register" type="submit" value="Register" /> 
