@@ -33,6 +33,7 @@
 <th>Name</th>
 <th>Email</th>
 <th>PhoneNumber</th>
+<th>Whatsapp</th>
 </tr>
 </thead>
 <tbody>
@@ -42,6 +43,7 @@
 		<td><c:out value="${member.name}"/></td>
 		<td><c:out value="${member.email}"/></td>
 		<td><c:out value="${member.phoneNumber}"/></td>
+		<td><c:out value="${member.whatsapp}"/></td>
 	</tr>
 </c:forEach>
 </tbody>
