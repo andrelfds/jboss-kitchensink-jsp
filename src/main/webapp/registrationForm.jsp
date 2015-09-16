@@ -59,6 +59,12 @@
                 <td><input id="department" name="department"
                     type="text" value="${newMember.department}" /></td>
             </tr>
+		<tr>
+                <td style="text-align: right;"><label
+                    for="departament">WBS_Department #:</label></td>
+                <td><input id="department" name="department"
+                    type="text" value="${newMember.WBS_department}" /></td>
+         </tr>
         </table>
         <p>
             <input id="register" type="submit" value="Register" /> 
