@@ -63,6 +63,10 @@ public class Member implements Serializable {
     @NotNull
     @NotEmpty
     private String department;
+	
+	@NotNull
+    @NotEmpty
+    private String wbsDepartment;
 
     public Long getId() {
         return id;
@@ -103,9 +107,17 @@ public class Member implements Serializable {
     public void setDepartment(String department) {
         this.department = department;
     }
+	
+	public String getWbsDepartment() {
+        return wbsDepartment;
+    }
+
+    public void setWbsDepartment(String wbsDepartment) {
+        this.wbsDepartment = wbsDepartment;
+    }
 
     public String toString() {
-        return getName() + ":" + getEmail() + ":" + getPhoneNumber() + ":" + getDepartment();
+        return getName() + ":" + getEmail() + ":" + getPhoneNumber() + ":" + getDepartment() + ":" + getWbsDepartment();
 
     }
 }
