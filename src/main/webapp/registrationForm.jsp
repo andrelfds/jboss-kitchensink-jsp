@@ -62,7 +62,7 @@
 		<tr>
                 <td style="text-align: right;"><label
                     for="departament">WBS_Department #:</label></td>
-                <td><input id="department" name="department"
+                <td><input id="WBS_department" name="WBS_department"
                     type="text" value="${newMember.WBS_department}" /></td>
          </tr>
         </table>
