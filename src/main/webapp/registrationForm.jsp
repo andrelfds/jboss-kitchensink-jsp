@@ -23,7 +23,7 @@
 <title>registrationPage.jsp</title>
 </head>
 <body>
-    <h1>Welcome to JBoss!</h1>
+    <h1>Welcome to JBoss! Jenkins</h1>
 
     <div>
         <p>You have successfully deployed a Java EE 6 web
